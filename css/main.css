@@ -98,6 +98,7 @@
 .conteudo-instrucao span{
   font-weight: 700;
   color: hsl(24, 1%, 30%);
+  margin-right: 5px;
 }
 
 .conteudo-preparacao h2{
@@ -105,15 +106,22 @@
   font-size: 1.25rem;
 }
 
-@media (max-width: 430px){
+@media (max-width: 450px){
 
   .conteudo-preparacao li{
     font-size: 14px;
     margin-left: 10px;
+    text-align: center;
   }
 
   .conteudo-preparacao h2{
     font-size: 1rem;
+  }
+}
+
+@media (max-width: 380px){
+  .conteudo-preparacao ul {
+    padding-left: 15px;
   }
 }
 
