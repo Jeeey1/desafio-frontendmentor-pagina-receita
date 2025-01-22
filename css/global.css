@@ -4,6 +4,7 @@ body{
   align-items: center;
   justify-content: center;
   background-color: #F3E5D8;
+  margin: 0px;
 }
 
 p, h1, h2{
