@@ -1,0 +1,30 @@
+body{
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+p, li{
+  font-size: 16px;
+  font-family: "Outfit";
+  font-weight: 400;
+}
+
+.font-o-w400{
+  font-family: "Outfit";
+  font-weight: 400;
+}
+
+.font-o-w600{
+  font-family: "Outfit";
+  font-weight: 600;
+}
+
+.font-o-w700{
+  font-family: "Outfit";
+  font-weight: 700;
+}
+
+.font-y-w400{
+  font-family: "Young Serif";
+  font-weight: 400;
+}
+

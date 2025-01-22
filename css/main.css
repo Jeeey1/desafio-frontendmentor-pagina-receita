@@ -1,0 +1,158 @@
+.main-bg{
+  background: var(--cor-branco);
+  border-radius: 15px;
+  padding: 20px;
+}
+
+.container{
+  margin-top: 100px;
+  margin-bottom: 100px;
+  max-width: 750px;
+}
+
+.conteudo{
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  padding: 40px;
+  background-color: #fff;
+  border-radius: 15px;
+}
+
+.conteudo img{
+  max-width: 100%;
+  border-radius: 15px;
+  margin-bottom: 20px;
+}
+
+.conteudo h1{
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  color: hsl(24, 5%, 18%);
+}
+
+.conteudo p {
+  margin-bottom: 20px;
+}
+
+/*  */
+
+.conteudo-preparacao {
+  background: hsl(330, 100%, 98%);
+  padding: 30px;
+}
+
+.conteudo-preparacao li {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  margin-left: 35px;
+}
+
+.conteudo-preparacao li::before{
+  content: "";
+  border-radius: 50%;
+  width: 4px;
+  height: 4px;
+  background-color: hsl(332, 51%, 32%);
+  position: absolute;
+  left: -30px;
+}
+
+.conteudo-preparacao li{
+  margin-top: 10px;
+  position: relative;
+}
+
+.conteudo-preparacao span,
+.conteudo-instrucao span{
+  font-weight: 700;
+  color: hsl(24, 1%, 30%);
+}
+
+.conteudo-preparacao h2{
+  color: hsl(332, 51%, 32%);
+  font-size: 1.25rem;
+}
+
+/*  */
+
+.conteudo-ingredientes h2 {
+  margin-top: 30px;
+}
+
+.conteudo-ingredientes li {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.conteudo-ingredientes li + li {
+  margin-top: 10px;
+}
+
+.conteudo-ingredientes li::before{
+  content: "";
+  border-radius: 50%;
+  width: 4px;
+  height: 4px;
+  background-color: hsl(14, 45%, 36%);
+  position: absolute;
+  left: -30px;
+}
+
+/*  */
+
+.conteudo-instrucao ul {
+  list-style-position: inside;
+  padding-left: 20px;
+}
+
+.conteudo-instrucao li {
+  list-style: number;
+  padding-left: 20px;
+}
+
+.conteudo-instrucao li + li {
+  margin-top: 10px;
+}
+
+
+.conteudo-instrucao li::marker{
+  color: hsl(14, 45%, 36%);
+  font-weight: 700;
+}
+
+
+/*  */
+
+.conteudo-nutricao h2 {
+  margin-bottom: 20px;
+}
+
+.conteudo-nutricao ul {
+  padding-left: 0px;
+}
+
+.conteudo-nutricao ul li {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  max-width: 100%;
+  padding-left: 40px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.conteudo-nutricao ul li:last-child{
+  margin-bottom: 5px;
+}
+
+.conteudo-nutricao hr {
+  margin: 0px;
+}
+
+.conteudo-nutricao span{
+  font-weight: 700;
+  color: hsl(14, 45%, 36%);
+}
