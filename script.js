@@ -21,7 +21,7 @@ function initNavMenu() {
 initNavMenu();
 
 window.addEventListener("scroll", () => {
-  const menu = document.querySelector(".menu-items"); // Substitua pelo ID ou classe do seu menu
+  const menu = document.querySelector(".menu-items");
   const scrollTop = window.scrollY;
 
   if (scrollTop >= 90) {
