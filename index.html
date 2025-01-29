@@ -9,10 +9,21 @@
   <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Young+Serif&display=swap"
     rel="stylesheet" title="Carregando fontes Outfit e Young Serif do Google Fonts">
   <link rel="stylesheet" href="./css/style.css">
+  <script src="script.js" defer></script>
   <title>Receita</title>
 </head>
 
 <body>
+  <ul class="menu js-menu" id="menu">
+    <div class="menu-icon">
+      <li><img src="img/icone-logo.png" alt=""></li>
+    </div>
+    <div class="menu-items">
+      <li><a href="#ingredients">Ingredients</a></li>
+      <li><a href="#instruction">Instruction</a></li>
+      <li><a href="#nutrition">Nutrition</a></li>
+    </div>
+  </ul>
   <main class="main-bg" aria-label="Conteúdo principal do site">
     <section class="conteudo container" aria-labelledby="receita-titulo">
       <img src="./img/image-omelette.jpeg" alt="Omelete dourado servido em um prato branco">
@@ -29,7 +40,7 @@
           </ul>
         </div>
         <div class="conteudo-ingredientes" aria-labelledby="ingredientes-titulo">
-          <h2 id="ingredientes-titulo" class="font-y-w400">Ingredients</h2>
+          <h2 id="ingredients" class="font-y-w400">Ingredients</h2>
           <ul>
             <li>2-3 large eggs</li>
             <li>Salt, to taste</li>
@@ -40,7 +51,7 @@
         </div>
         <hr>
         <div class="conteudo-instrucao" aria-labelledby="instrucoes-titulo">
-          <h2 id="instrucoes-titulo" class="font-y-w400">Instruction</h2>
+          <h2 id="instruction" class="font-y-w400">Instruction</h2>
           <ul>
             <li><span>Beat the eggs:</span> In a bowl, beat the eggs with a pinch of salt and pepper until they are well
               mixed.
@@ -61,7 +72,7 @@
         </div>
         <hr>
         <div class="conteudo-nutricao" aria-labelledby="nutricao-titulo">
-          <h2 id="nutricao-titulo" class="font-y-w400">Nutrition</h2>
+          <h2 id="nutrition" class="font-y-w400">Nutrition</h2>
           <p>The table below shows nutritional values per serving without the additional fillings.</p>
           <ul>
             <li>Calories <span>277kcal</span></li>

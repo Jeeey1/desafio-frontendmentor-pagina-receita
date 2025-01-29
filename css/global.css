@@ -1,18 +1,33 @@
+* {
+  box-sizing: border-box;
+}
+
 body{
-  height: 100%;
+  /* height: 100%; */
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
   background-color: #F3E5D8;
   margin: 0px;
 }
 
-p, h1, h2{
+p, h1, h2, ul, li{
   margin: 0px;
+  padding: 0px;
 }
 
 hr {
   margin-top: 30px;
   margin-bottom: 30px;
   opacity: 40%;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
 }

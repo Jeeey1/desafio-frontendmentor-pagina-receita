@@ -1,3 +1,29 @@
+.menu {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 30px;
+  margin-top: 50px;
+  margin-bottom: -43px;
+}
+
+.menu img {
+  width: 50px;
+}
+
+.menu-items {
+  display: flex;
+  gap: 20px;
+}
+
+.menu-items a {
+  font-size: 1.2rem;
+  background: #ddcfc3;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+
 .main-bg{
   background-color: #fff;
   border-radius: 15px;
@@ -215,4 +241,16 @@
 .conteudo-nutricao span{
   font-weight: 700;
   color: hsl(14, 45%, 36%);
+}
+
+.fixed-menu {
+  top: 0;
+  position: fixed;
+  width: 100%;
+  z-index: 3;
+  background: #f5e5d8; /* Ajuste conforme o design */
+  padding: 10px 0;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Efeito sutil de sombra */
+  justify-content: center;
+  padding: 20px;
 }
